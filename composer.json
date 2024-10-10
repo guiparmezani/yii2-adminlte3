@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "hail812\\adminlte3\\": "src"
+            "guiparmezani\\adminlte3\\": "src"
         }
     }
 }
