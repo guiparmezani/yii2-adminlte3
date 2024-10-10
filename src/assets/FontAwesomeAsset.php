@@ -1,5 +1,5 @@
 <?php
-namespace hail812\adminlte3\assets;
+namespace guiparmezani\adminlte3\assets;
 
 use yii\web\AssetBundle;
 

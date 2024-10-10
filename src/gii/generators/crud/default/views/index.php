@@ -68,7 +68,7 @@ if (($tableSchema = $generator->getTableSchema()) === false) {
 }
 ?>
 
-                            ['class' => 'hail812\adminlte3\yii\grid\ActionColumn'],
+                            ['class' => 'guiparmezani\adminlte3\yii\grid\ActionColumn'],
                         ],
                         'summaryOptions' => ['class' => 'summary mb-2'],
                         'pager' => [

@@ -61,10 +61,10 @@ For example:
 ```php
 /* @var $this \yii\web\View */
 
-\hail812\adminlte3\assets\PluginAsset::register($this)->add('sweetalert2');
+\guiparmezani\adminlte3\assets\PluginAsset::register($this)->add('sweetalert2');
 
 // or
-\hail812\adminlte3\assets\PluginAsset::register($this)->add(['sweetalert2', 'toastr']);
+\guiparmezani\adminlte3\assets\PluginAsset::register($this)->add(['sweetalert2', 'toastr']);
 ```
 
 before this, maybe you should edit params.php:
@@ -92,7 +92,7 @@ or
 ```php
 /* @var $this \yii\web\View */
 
-$bundle = \hail812\adminlte3\assets\PluginAsset::register($this);
+$bundle = \guiparmezani\adminlte3\assets\PluginAsset::register($this);
 $bundle->css[] = 'sweetalert2-theme-bootstrap-4/bootstrap-4.min.css';
 $bundle->js[] = 'sweetalert2/sweetalert2.min.js';
 ```
