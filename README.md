@@ -1,4 +1,4 @@
-hail812/yii2-adminlte3
+guiparmezani/yii2-adminlte3
 ======================
 adminlte3 for yii2
 
@@ -12,13 +12,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require "hail812/yii2-adminlte3=~1.1"
+composer require "guiparmezani/yii2-adminlte3=dev-master"
 ```
 
 or add
 
 ```
-"hail812/yii2-adminlte3": "~1.1"
+"guiparmezani/yii2-adminlte3": "dev-master"
 ```
 
 to the require section of your `composer.json` file.
@@ -34,14 +34,14 @@ Once the extension is installed, you can config the path mappings of the view co
     'view' => [
          'theme' => [
              'pathMap' => [
-                '@app/views' => '@vendor/hail812/yii2-adminlte3/src/views'
+                '@app/views' => '@vendor/guiparmezani/yii2-adminlte3/src/views'
              ],
          ],
     ],
 ],
 ```
 
-Copy files from @vendor/hail812/yii2-adminlte3/src/views to @app/views, then edit.
+Copy files from @vendor/guiparmezani/yii2-adminlte3/src/views to @app/views, then edit.
 
 simply use:
 
@@ -72,7 +72,7 @@ before this, maybe you should edit params.php:
 ```php
 return [
     'adminEmail' => 'admin@example.com',
-    'hail812/yii2-adminlte3' => [
+    'guiparmezani/yii2-adminlte3' => [
         'pluginMap' => [
             'sweetalert2' => [
                 'css' => 'sweetalert2-theme-bootstrap-4/bootstrap-4.min.css',
@@ -110,7 +110,7 @@ if (!YII_ENV_TEST) {
             'crud' => [ // generator name
                 'class' => 'yii\gii\generators\crud\Generator', // generator class
                 'templates' => [ // setting for our templates
-                    'yii2-adminlte3' => '@vendor/hail812/yii2-adminlte3/src/gii/generators/crud/default' // template name => path to template
+                    'yii2-adminlte3' => '@vendor/guiparmezani/yii2-adminlte3/src/gii/generators/crud/default' // template name => path to template
                 ]
             ]
         ]

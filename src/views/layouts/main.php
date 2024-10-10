@@ -11,7 +11,7 @@ $this->registerCssFile('https://fonts.googleapis.com/css?family=Source+Sans+Pro:
 
 $assetDir = Yii::$app->assetManager->getPublishedUrl('@vendor/guiparmezani/adminlte/dist');
 
-$publishedRes = Yii::$app->assetManager->publish('@vendor/hail812/yii2-adminlte3/src/web/js');
+$publishedRes = Yii::$app->assetManager->publish('@vendor/guiparmezani/yii2-adminlte3/src/web/js');
 $this->registerJsFile($publishedRes[1].'/control_sidebar.js', ['depends' => '\guiparmezani\adminlte3\assets\AdminLteAsset']);
 ?>
 <?php $this->beginPage() ?>
